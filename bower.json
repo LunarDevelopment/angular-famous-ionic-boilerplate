@@ -1,0 +1,18 @@
+{
+  "name": "afi",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marked": "0.3.3",
+    "ionic": "1.0.0",
+    "famous-angular": "0.5.0",
+    "font-awesome": "4.3.0",
+    "angular-material": "0.9.8-rc1"
+  }
+}

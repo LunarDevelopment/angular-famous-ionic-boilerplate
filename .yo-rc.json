@@ -1,0 +1,14 @@
+{
+  "generator-angular-famous-ionic": {
+    "filenameCase": "snake",
+    "filenameSuffix": true,
+    "appname": "afi",
+    "clientFolder": "client",
+    "ionic": true,
+    "famous": true,
+    "ngCordova": true,
+    "fontawesome": true,
+    "bootstrap": false,
+    "material": true
+  }
+}
