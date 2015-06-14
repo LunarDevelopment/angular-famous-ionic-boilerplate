@@ -8,7 +8,7 @@
     <!--[if IE]>
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <![endif]-->
-    <title>Sample app</title>
+    <title>angular-famous-ionic-boilerplate</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -16,6 +16,16 @@
     <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
+    <ion-header-bar class="bar-dark">
+      <div class="buttons">
+        <md-button class="md-fab md-warn" aria-label="Delete" ng-click="data.showDelete = !data.showDelete; data.showReorder = false">
+          <i class="icon ion-ios7-minus-outline"></i>
+        </md-button>
+        
+      <h1 class="title">Demo Intergrate with Material Design. Using Toast & FAB. Click reorder and edit for test</h1>
+         
+      </div>
+    </ion-header-bar>
     <ui-view layout="column" flex></ui-view>
     <script src="cordova.js"></script>
     <script src="scripts/bundle.js"></script>

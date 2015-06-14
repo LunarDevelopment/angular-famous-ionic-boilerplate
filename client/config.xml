@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.hybridframework.afi" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>afi</name>
-  <description>afi</description>
+  <name>angular-famous-ionic-boilerplate</name>
+  <description>angular-famous-ionic-boilerplate</description>
   <author email="afi@hybridframework" href="http://hybridframework.com/">
-      afi Team
+      angular-famous-ionic-boilerplate
     </author>
   <content src="index.html"/>
   <access origin="*"/>
